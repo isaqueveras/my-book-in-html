@@ -32,14 +32,6 @@ body .container {
 }
 
 /* 
-  Estilo do header e rodapé
-*/
-body header, footer {
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-}
-
-/* 
   Estilo de titulos
 */
 body h1, h2, h3, h4, h5, h6 {
@@ -75,4 +67,5 @@ pre {
   background-color: #ddd;
   padding: 5px;
   margin: 5px 0;
+  font-size: 10pt;
 }
