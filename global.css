@@ -1,3 +1,11 @@
+:root {
+  --cor-principal: #5D4BDB;
+  --cor-secundaria: #43388F;
+  --cor-terciario: #B7DB40;
+  --cor-quaternaria: #DB3598;
+  --cor-quintuario: #8F1B60;
+}
+
 /* 
   Zerando a margin e padding de tudo
 */
@@ -47,7 +55,7 @@ body h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.5;
+  line-height: 1.5cm;
 }
 
 /* 
@@ -79,4 +87,39 @@ body p {
 */
 body p::first-letter {
   margin-left: 1.25cm;
+}
+
+/* 
+  Cores
+*/
+.cor-principal {
+  color: var(--cor-principal);
+}
+
+.cor-secundaria {
+  color: var(--cor-secundaria);
+}
+
+.cor-terciario {
+  color: var(--cor-terciario);
+}
+
+.cor-quaternaria {
+  color: var(--cor-quaternaria);
+}
+
+.cor-quintuario {
+  color: var(--cor-quintuario);
+}
+
+/* 
+  Links do footer
+*/
+div.links-footer {
+  display: flex;
+  justify-content: center;
+}
+
+div.links-footer a:first-of-type {
+  margin-right: 15px;
 }

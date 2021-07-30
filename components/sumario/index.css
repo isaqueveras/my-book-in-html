@@ -1,6 +1,14 @@
 /* 
-  Formatando os sublinks
+  Formatando os subitens de uma lista
 */
 ol > li {
+  margin-left: 20px;
+}
+
+/* 
+  Formatação da lista `ul`
+*/
+body ul > li {
+  list-style: none;
   margin-left: 20px;
 }
